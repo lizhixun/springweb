@@ -1,26 +1,40 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <c:set var="ctx" value="${pageContext.request.contextPath}" />
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link href="${ctx}/static/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="${ctx}/static/jquery/jquery-1.8.2.js"></script>
 <title>hello lizhixun</title>
 </head>
+
 <body>
-    <h1>This is Hello Index</h1>
-    <ul class="nav nav-tabs">
-      <li class="active">
-        <a href="#">Home</a>
-      </li>
-      <li><a href="#">Profile</a></li>
-      <li><a href="#">Messages</a></li>
-    </ul>
-    <script src="${ctx}/static/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+    <div class="row">
+      <div class="span3 bs-docs-sidebar">
+        <ul class="nav nav-list bs-docs-sidenav affix">
+          <li class>
+            <a href="#">
+              <i class="icon-chevron-right"></i>
+              "aaa"
+            </a>
+            <a href="#">
+              <i class="icon-chevron-right"></i>
+              "bbb"
+            </a>
+            <a href="#">
+              <i class="icon-chevron-right"></i>
+              "ccc"
+            </a>
+            <a href="#">
+              <i class="icon-chevron-right"></i>
+              "ddd"
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
 </body>
+
 </html>
